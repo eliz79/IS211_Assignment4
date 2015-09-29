@@ -127,12 +127,12 @@ def random_list(avg_time):
     for item in range(avg_time):
         my_list.append(random.randint(1, avg_time))
     return my_list
-   
+
 
 def main():
     """The main function of the program."""
     test_num = [500, 1000, 10000]
-    
+
     for i in test_num:
         counter = 100
         results = [0, 0, 0, 0]
